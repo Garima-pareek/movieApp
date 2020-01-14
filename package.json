@@ -1,0 +1,22 @@
+{
+  "name": "movie-app",
+  "version": "1.0.0",
+  "description": "movie search app to know about different movies",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "movie",
+    "search"
+  ],
+  "author": "Garima Pareek",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "express-sanitizer": "^1.0.5",
+    "request": "^2.88.0"
+  }
+}

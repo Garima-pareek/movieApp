@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Result Page</title>
+    <link rel="stylesheet" href="public/css/ResultStyle.css">
+  </head>
+  <body>
+    <div class="header">
+      <h1>Result page</h1>
+      </div>
+      <div>
+        <form class="" action="/result" method="POST">
+          <ul>
+          	<% for(var i=0;i<data.Search.length;i++){%>
+          	<li class="res">
+          		<table>
+          			<td><img src="<%=data.Search[i].Poster %>"></td>
+          			<td><h4>Title:-</h4><%=data.Search[i].Title %>
+          		<h4>Year:-</h4><%=data.Search[i].Year %>
+            
+
+            </td>
+
+          		</table>
+
+
+
+          	</li>
+
+          	<% } %>
+          </ul>
+      <button type="submit" name="button" class="back">Go Back to search Page!!</button>
+    </form>
+    </div>
+    <div class="copyrightSection">
+
+    		<div >
+    			<p>&copy; Copyright Garima Pareek 2020</p>
+    		</div>
+
+    	</div>
+  </body>
+</html>
+
+
+
+<div>
+
+</div>

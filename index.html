@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie-Search-App</title>
+  <link rel="stylesheet" type="text/css" href="public/css/style.css">
+
+  <script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+
+</head>
+
+<body>
+  <div class="root">
+
+    <div class="header">
+      <h1 class="heading"> Movie Search App </h1>
+
+
+    </div>
+
+
+    <div class="dropdown">
+      <form action="/" method="POST" class="form">
+
+        <input type="text" id="item" name="search" class="inputField" autocomplete="off" onclick="myFunction()" spellcheck="false">
+        <button class="btn" type="submit" name="button">SEARCH</button>
+      </form>
+
+
+
+
+      <div id="list1" class="dropdown-content">
+
+        <span class="tag">Search History</span>
+        <span class="clear"><button id="cleard">clear Search history</button></span>
+        <ul id="myUL">
+
+        </ul>
+    </div>
+      <div class="copyrightSection">
+
+        <div>
+          <p>&copy; Copyright Garima Pareek 2020</p>
+        </div>
+      </div>
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+</div>
+    <script src="public/js/list.js"></script>
+    <script src="public/js/auto.js"></script>
+</body>
+
+</html>
